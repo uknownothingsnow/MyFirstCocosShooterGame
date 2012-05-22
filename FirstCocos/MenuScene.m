@@ -15,6 +15,7 @@
 -(void)doSomethingTwo:(CCMenuItem *)menuItem
 {
     NSLog(@"doSomethingTwo method call");
+    [[CCDirector sharedDirector] replaceScene:[HelloWorldLayer scene]];
 }
 -(void)doSomethingThree:(CCMenuItem *)menuItem
 {

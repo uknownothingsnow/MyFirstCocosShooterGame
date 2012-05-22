@@ -42,6 +42,7 @@
         _label.position = ccp(winSize.width/2, winSize.height/2);
         [self addChild:_label];
         
+        
         [self runAction:[CCSequence actions:
                          [CCDelayTime actionWithDuration:3],
                          [CCCallFunc actionWithTarget:self selector:@selector(gameOverDone)],
